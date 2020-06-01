@@ -1,0 +1,43 @@
+.b
+{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 15px 20px;
+    justify-content: center;
+    cursor: pointer;
+}
+.x
+{
+    background:green;
+}
+.y
+{
+    background:yellow;
+}
+.ym{
+   border: 1px solid b;ack;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   padding-left: 30%;
+   padding-right: 30%;
+}
+fieldset{
+    border: 1px solid black;
+    margin: 10px;
+}
+.v
+{
+    background-color: ivory;
+}
+form{
+    border:1px solid black;
+    border-radius:1em;
+    padding:1em;
+    width:50%;
+    margin:0 auto;
+}

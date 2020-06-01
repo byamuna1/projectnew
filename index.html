@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="st.css">
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    <h1 style="color:blue;text-align: center;">VIGNAN INSTITUTE OF INFORMATION TECHNOLOGY</h1>
-    <img src="viit1.jpg" alt="">
-    <ul>
-      <li><a href="index.html">Home</a> </li>  
-      <li> <a href="about.html">about</a></li> 
-        <li> <a href="contact.html">contact</a></li> 
-            <li> <a href="placements.html">placements</a></li>
-    </ul>
-    <img src="viit.jpg" width="100%" alt="">
-    <p style="text-align: center;"> VIIT</p>
-    <p>Vignan's Institute Of Information Technology is one of the engineering institutions run by the Vignan group of Guntur. It was established in 2002 to offer undergraduate (BTech)(College Code:L3)courses in Engineering and Technology. It is situated in Duvvada, a suburban region of Visakhapatnam, India.</p>
-
+    <div class="v">
+      <form id="inside">
+        <fieldset>
+        <h1>Signup Form</h1>
+        <label for="Email"><b>Email</b></label><br>
+        <input type="email" placeholder="Enter Email" rows="1" cols="30">
+        <br><br><label for="password"><b>Password</b></label>
+        <br>
+        <input type="password" placeholder="Enter Password">
+        <br><br><label for="Reapeat Password"><b>Repeat Password</b></label>
+        <br><input type="password" placeholder="Repeat Password">
+        <br><br><input type="checkbox" ><label for="Remember me">Remember me</label>
+        <h3>To create an account you have to agree our<a href="#">Terms & Privacy</a></p>
+        <button class="x">canceal</button>
+        <button class="y">submit</button>  
+      </fieldset>
+     </form>
+    </div>
 </body>
 </html>
